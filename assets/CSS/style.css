@@ -1,6 +1,41 @@
-
-body {
-    background-color: #98D7C2; 
+* {
+    padding-top: 20px;
 }
 
+body {
+    background-color: #98D7C2;
+    margin: 0 auto;
+}
+
+/* Header Style Starts*/
+header {
+    background-color: #FFC2C7;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header h1 {
+    font-weight: bolder;
+    font-size: 45px;
+    color: #5100a2;
+    margin: 35px;
+    display: inline;
+}
+
+header nav {
+   float: right;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+    position: relative;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 25px;
+    margin: 0 35px;
+}
 
