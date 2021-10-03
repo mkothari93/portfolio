@@ -12,7 +12,6 @@ body {
 /* Header Style Starts*/
 header {
     background-color: #B6E5D8;
-    /*font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
     padding: 30px 0;
 }
 
@@ -54,6 +53,7 @@ header nav ul li a {
 }
 
 .section-title h2 {
+    width: 40%;
     font-size: 40px;
     text-align: center;
     color: #2E765E;
@@ -62,19 +62,25 @@ header nav ul li a {
 
 .about {
     background-color: #FBE5C8;
-    width: auto;
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
 }
 
 .about img {
     border-radius: 80px;
-    height: 500px;
+    height: 400px;
     padding: 50px;
-    display: inline;
+    display: inline-flex;
     float: left;
 }
 
+.about img:hover {
+    height: 450px;
+}
+
 .bio {
-    margin: 20px auto;
+    margin: 0 auto;
     padding: 50px;
     text-align: left;
     justify-content: space-evenly;
@@ -113,5 +119,17 @@ header nav ul li a {
     flex-grow: 0.5;
 }
 /* My Work Style Ends */
+
+/* Contact Me Style Starts */
+.contact-info {
+    background-color: #FBE5C8;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    font-size: 20px;
+}
 
 
