@@ -1,44 +1,89 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-    background-color: #98D7C2;
     margin: 0 auto;
-    padding-top: 45px;
 }
 
 /* Header Style Starts*/
 header {
-    background-color: #FFC2C7;
-    font-size: 25px;
+    /*background-color: #FAB5D2;*/
+    background-color: #B6E5D8;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px 0;
 }
 
 header h1 {
     font-weight: bolder;
-    font-size: 45px;
-    color: #5100a2;
+    font-size: 50px;
+    color: #2E765E;
     margin: 35px;
     display: inline;
 }
 
 header nav {
-   display: inline;
     float: right;
+    margin: 5px 20px;
 }
 
 header nav ul li {
     display: inline;
-    margin: 0 20px;
+    margin: 5px 20px;
 }
 
 header nav ul li a {
     text-decoration: none;
-    color: #5100a2;
+    color: #E2808A;
     font-weight: lighter;
     font-size: 25px;
-    margin: 0 35px;
 }
 /* Header Style Ends */
 
+/* About Me Style Starts */
+.section-title {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
+.section-title h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #2E765E;
+    border-bottom: 5px solid #E2808A;
+}
 
+.about {
+    background-color: #FBE5C8;
+    width: auto;
+}
+
+.about img {
+    border-radius: 80px;
+    height: 500px;
+    padding: 50px;
+    display: inline;
+    float: left;
+}
+
+.bio {
+    margin: 20px auto;
+    padding: 50px;
+    text-align: left;
+    justify-content: space-evenly;
+}  
+
+.about p {
+    font-size: 25px;
+    color: #2E765E;
+    line-height: 1.3;
+}
+
+/* My Work Style Begins */
