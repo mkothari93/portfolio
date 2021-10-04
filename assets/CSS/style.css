@@ -25,7 +25,7 @@ header h1 {
 
 header nav {
     float: right;
-   margin: 20px;
+    margin: 20px;
 }
 
 header nav ul li {
@@ -195,3 +195,161 @@ footer nav ul li a {
     font-size: 25px;
 }
 /* Footer Style Ends */
+
+/* Media Query for Mobile Phones and Smaller */
+@media screen and (max-width: 980px) {
+    header {
+        padding: 20px 0;
+    }
+    
+    header h1 {
+        font-weight: bolder;
+        font-size: 50px;
+        color: #2E765E;
+        margin: 15px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    header nav {
+        float: none;
+        margin: 10px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .project-big img {
+        border-radius: 50px;
+        display: inline-flex;
+        width: 950px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        float: none;
+        text-align: center;
+    }
+
+    header h1 {
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header nav {
+        float: none;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    header nav ul li {
+        display: inline;
+        margin: 5px 20px;
+    }
+
+    .about img {
+        border-radius: 80px;
+        height: 400px;
+        padding: 20px;
+        display: inline;
+        float: left;
+    }
+
+    .bio {
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .project-big img {
+        border-radius: 50px;
+        display: inline-flex;
+        width: 750px;
+        height: 350px;
+    }
+
+    .linkedin img:hover, .email img:hover {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    header h1 {
+        font-size: 40px;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    .section-title h2 {
+        font-size: 30px;
+    }
+
+    .about img:hover {
+        height: 425px;
+    }
+
+    .about p {
+        font-size: 18px;
+        line-height: 1.3;
+    }
+
+    .projects img {
+        border-radius: 50px;
+        display: inline-flex;
+        width: 550px;
+        height: 350px;
+    }
+
+    .contact-info {
+        padding: 15px;
+    }
+    
+    .contact-info h4{
+        padding: 15px;
+        font-size: 20px;
+    }
+    
+    .contact-info p {
+        font-size: 15px;
+    }
+    
+    address {
+        margin: 10px;
+        justify-content: center;
+    }
+    
+    .linkedin img, .email img {
+        height: 40px;
+        width: 40px;
+    }
+    
+    .linkedin img:hover, .email img:hover {
+        height: 50px;
+        width: 50px;
+    }
+    
+    .linkedin p, .email p {
+        margin: 20px;
+        font-size: 18px;
+    }
+
+    footer nav {
+        padding: 15px 0;
+        justify-content: center;
+     }
+
+    footer nav ul li {
+        margin: 10px;
+    }
+    
+    footer nav ul li a {
+        font-size: 18px;
+    }
+}
+/* End of Media Queries */
