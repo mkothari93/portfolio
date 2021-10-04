@@ -103,6 +103,11 @@ header nav ul li a {
     display: inline-flex;
 }
 
+.project-big img {
+    width: 1000px;
+    height: 350px;
+}
+
 .project-small {
     display: inline;
     padding: 5px;
