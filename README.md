@@ -1,7 +1,7 @@
 # Portfolio
 
 ### Purpose
-The purpose of this project is showcase my projects for potential employers.
+The purpose of this project is showcase my projects for potential employers by creating a portfolio.
 
 ### Built With
 * HTML
