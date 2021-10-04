@@ -38,7 +38,6 @@ header nav ul li a {
     color: #E2808A;
     font-weight: lighter;
     font-size: 25px;
-
 }
 /* Header Style Ends */
 
@@ -116,20 +115,83 @@ header nav ul li a {
 
 .project-small img:hover {
     border: 1.5px solid #E2808A;
-    flex-grow: 0.5;
+    flex-grow: 1;
 }
 /* My Work Style Ends */
 
 /* Contact Me Style Starts */
 .contact-info {
     background-color: #FBE5C8;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.contact-info {
+    padding: 25px;
     font-size: 20px;
 }
 
+.contact-info h4{
+    padding: 25px;
+    text-align: center;
+    display: block;
+    font-size: 25px;
+    color: #2E765E;
+    line-height: 1.3;
+}
 
+.contact-info p {
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 1.3;
+}
+
+address {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px;
+}
+
+.linkedin img, .email img {
+    border-radius: 40px;
+    height: 100px;
+    width: 100px;
+}
+
+.linkedin img:hover, .email img:hover {
+    height: 125px;
+    width: 125px;
+}
+
+.linkedin p, .email p {
+    margin: 25px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: #2E765E;
+    line-height: 1.3;
+}
+/* Contact Me Style Ends */
+
+/* Footer Style Starts*/
+footer {
+    margin-top: 10%;
+}
+
+footer nav {
+   margin: 0 auto;
+   padding: 25px 0;
+   display: flex;
+   justify-content: space-around;
+   background-color: #B6E5D8;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 25px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #E2808A;
+    font-weight: lighter;
+    font-size: 25px;
+}
+/* Footer Style Ends */
