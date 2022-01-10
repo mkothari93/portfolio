@@ -104,8 +104,8 @@ header nav ul li a {
 }
 
 .project-big img {
-    width: 1000px;
-    height: 350px;
+    width: 600px;
+    height: auto;
 }
 
 .project-small {
@@ -116,6 +116,11 @@ header nav ul li a {
 .project-big img:hover {
     border: 1.5px solid #E2808A;
     flex-grow: 1;
+}
+
+.project-small img {
+    width: 500px;
+    height: 500px;
 }
 
 .project-small img:hover {
