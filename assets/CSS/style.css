@@ -231,8 +231,8 @@ footer nav ul li a {
     .project-big img {
         border-radius: 50px;
         display: inline-flex;
-        width: 950px;
-        height: 350px;
+        width: 600px;
+        height: auto;
     }
 }
 
@@ -277,8 +277,8 @@ footer nav ul li a {
     .project-big img {
         border-radius: 50px;
         display: inline-flex;
-        width: 750px;
-        height: 350px;
+        width: 700px;
+        height: 600px;
     }
 
     .linkedin img:hover, .email img:hover {
